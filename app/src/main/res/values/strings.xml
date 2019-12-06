@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MutilpApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    // random generator
+    <string name="get_a_random_number">Get a Random Number!</string>
+    <string name="get_number">Get Number</string>
+    <string name="empty" />
+    <string name="without_replacement">Without Replacement</string>
+    <string name="lower_number">Lower Number</string>
+    <string name="upper_number">Upper Number</string>
+
+    <string name="go_to_Dice">Go to Dice</string>
+
+    //Dice
+
+    <string name="roll">Roll</string>
+    <string name="go_to_Tip">Go to Tip</string>
+
+    //Tip
+    <string name="enter_tip">Please Enter your Tip</string>
+    <string name="onefive">15%</string>
+    <string name="oneeight">18%</string>
+    <string name="twozero">20%</string>
+    <string name="Tipcalculator"> Tip Calculator</string>
+    <string name="inputTip">Enter your number</string>
+    <string name="Select">Select</string>
+    <string name="get_tip">Get Tip</string>
+    <string name="total">Total:</string>
+
+    <string name="share_success_text">I\'ve Tipped %1$d and total amount is /%2$d !</string>
+    //others
+
+    <string name="share">Share</string>
+
+
+
+</resources>

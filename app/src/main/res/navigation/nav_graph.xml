@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/randomFragment">
+
+
+    <fragment
+        android:id="@+id/randomFragment"
+        android:name="com.example.homwowrk3.RandomFragment"
+        android:label="Randome Number Generator"
+        tools:layout="@layout/fragment_random">
+
+        <action
+            android:id="@+id/action_randomFragment_to_diceFragment2"
+            app:destination="@id/diceFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/tipFragment"
+        android:name="com.example.homwowrk3.TipFragment"
+        android:label="Tip Calculator"
+        tools:layout="@layout/fragment_tip" >
+        <action
+            android:id="@+id/action_tipFragment_to_randomFragment"
+            app:destination="@id/randomFragment"
+            app:popUpTo="@+id/randomFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/diceFragment"
+        android:name="com.example.homwowrk3.DiceFragment"
+        android:label="Roll Dice"
+        tools:layout="@layout/fragment_dice">
+        <action
+            android:id="@+id/action_diceFragment_to_tipFragment"
+            app:destination="@id/tipFragment"
+            app:popUpTo="@+id/randomFragment" />
+    </fragment>
+</navigation>
